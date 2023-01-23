@@ -1,0 +1,29 @@
+{% extends 'website/base.html' %}
+{% load static %}
+
+{% block page_title %}
+home
+{% endblock page_title %}
+
+
+{% block page_heading %}
+
+
+
+{% endblock page_heading %}
+
+
+{% block page_content %}
+<section class="hero-heading">
+    <div class="container text-center hero-heading-text">
+        <h1>Developer & Designer</h1>
+        <h5>I code and design beautifully simple things</h5>
+        <img src="{% static 'website\images\undraw_male_avatar_g98d.svg' %}" alt="">
+    </div>
+    <div class="container hero-image text-center">
+        <img src="{% static 'website\images\Screenshot_20221216_110329 1.png' %}" alt="">
+    </div>
+</section>
+
+
+{% endblock page_content %}

@@ -1,0 +1,18 @@
+/* Global Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.hero-heading-text h1{
+    font-weight:700;
+}
+
+.hero-heading-text img{
+    width: 12rem;
+    height: 12rem;
+    background-color: #6E07F3;
+    border-radius: 50%;
+}
